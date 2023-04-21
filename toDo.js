@@ -25,6 +25,7 @@ function addItem(item) {
     const li = document.createElement('li');
     li.innerHTML = `
     <span class="item">${item}</span>
+    <button class="edit">edit</button>
     <button class="delete">x</button>
     `;
     list.appendChild(li);
