@@ -14,6 +14,7 @@ form.addEventListener('submit', (e) => {
     }
 });
 
+array = [];
 function loadItems() {
     const items = JSON.parse(localStorage.getItem('items')) || [];
     items.forEach((item) => addItem(item));
@@ -25,8 +26,8 @@ function addItem(item) {
     const li = document.createElement('li');
     li.innerHTML = `
     <span class="item">${item}</span>
-    <button class="edit" onclick="edit(this)">edit</button>
-    <button class="delete">x</button>
+    <button class="edit" onclick="edit(this)">Edit</button>
+    <button class="delete">Remove</button>
     `;
     list.appendChild(li);
 
@@ -43,9 +44,13 @@ function edit(e){
     let i = document.querySelector('.edit');
 
     let update = prompt("Update task",);
-    let a = i.previousSibling;
+    a = i.previousSibling;
     e.parentElement.childNodes[1].innerHTML = update
     console.log(e.parentElement.childNodes[0].innerHTML = update);
+
+    localStorage.setItem('items',JSON.stringify(update));
+
+    saveItems();
 
 }
 
