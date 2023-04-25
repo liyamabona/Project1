@@ -17,7 +17,7 @@ li {
     justify-content: space-between;
     margin-bottom: 10px;
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 5px;
 }
 
@@ -32,7 +32,9 @@ li button {
 body{
     /* width: 100%; */
     /* height: 100%; */
-    background-image:url('https://static.vecteezy.com/system/resources/previews/003/524/453/original/luxury-beige-background-free-vector.jpg');
-    /* background-size: cover; */
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-YYN1xmZaTnQvQi8yLKmdhcJ1wAWFRxqc-w&usqp=CAU');
+    /* background-size: cover;
+ */
 }
-
+/* https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFeOvUeKCB-TET9xuyyfiAox_JaVR47mQmHQ&usqp=CAU */
+/* https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFeOvUeKCB-TET9xuyyfiAox_JaVR47mQmHQ&usqp=CAU */

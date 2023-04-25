@@ -14,7 +14,6 @@ form.addEventListener('submit', (e) => {
     }
 });
 
-array = [];
 function loadItems() {
     const items = JSON.parse(localStorage.getItem('items')) || [];
     items.forEach((item) => addItem(item));
