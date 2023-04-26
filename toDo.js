@@ -32,7 +32,7 @@ function addItem(item) {
 
     const deleteButton = li.querySelector('.delete');
     deleteButton.addEventListener('click', () => {
-        li.remove(); 
+        li.remove();
         saveItems();
     });
 
